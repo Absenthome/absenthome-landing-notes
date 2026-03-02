@@ -13,7 +13,7 @@ const config: Config = {
   baseUrl: '/',
 
   organizationName: 'absenthome',
-  projectName: 'absenthome-docs',
+  projectName: 'absenthome-landing-notes',
 
   onBrokenLinks: 'throw',
 
@@ -28,11 +28,11 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/absenthome/absenthome-docs/tree/main/',
+          editUrl: 'https://github.com/absenthome/absenthome-landing-notes/tree/main/',
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/absenthome/absenthome-docs/tree/main/',
+          editUrl: 'https://github.com/absenthome/absenthome-landing-notes/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
