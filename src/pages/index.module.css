@@ -1,0 +1,84 @@
+.heroBanner {
+  padding: 8rem 2rem 6rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.featuredSection {
+  padding: 6rem 2rem;
+  background: var(--ifm-background-color);
+  position: relative;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-weight: 800;
+  color: var(--ifm-heading-color);
+  letter-spacing: -1px;
+}
+
+.videoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.videoGridSingle {
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.loadingState,
+.errorState,
+.emptyState {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.loadingState p,
+.errorState p,
+.emptyState p {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .heroBanner {
+    padding: 6rem 1.5rem 4rem;
+    min-height: 80vh;
+  }
+  
+  .buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .videoGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .featuredSection {
+    padding: 4rem 1.5rem;
+  }
+}

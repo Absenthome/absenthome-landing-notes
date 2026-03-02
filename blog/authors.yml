@@ -1,0 +1,10 @@
+jessie:
+  name: Jessie Smith
+  title: Sr Software Engineer and Founder Of Absenthome
+  url: https://www.linkedin.com/in/jessieeugenesmith/
+  image_url: https://github.com/jessie-smith.png
+  page: true
+  socials:
+    x: jessie-smith
+    linkedin: jessie-smith
+    github: jessie-smith
