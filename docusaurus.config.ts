@@ -102,7 +102,7 @@ const config: Config = {
           items: [
             {
               label: 'Salesforce Tutorials',
-              to: '/docs/youtube-notes/salesforce-series/congratulations',
+              to: '/docs/youtube-notes/salesforce-series/salesforce-cheat-sheet',
             },
           ],
         },

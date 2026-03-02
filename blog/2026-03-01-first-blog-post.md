@@ -9,6 +9,8 @@ tags: [announcement, getting-started]
 
 I'm excited to launch **Absenthome**—a channel and community dedicated to three passions: **Salesforce development**, **home automation**, and **open source software**.
 
+<!-- truncate -->
+
 ## What's This About?
 
 Whether you're building enterprise solutions on Salesforce, automating your home with smart devices, or contributing to open source projects, this channel is for you. I create in-depth tutorials, practical guides, and project walkthroughs across all three domains.
