@@ -57,7 +57,7 @@ You need a safe space to build where you won't break production.
 
 ---
 
-## 🏗️ Part 2: Creating Your First Project
+##  Part 2: Creating Your First Project
 
 Every building needs a project file. In your VS Code terminal, run the following command to generate your workspace:
 
@@ -68,7 +68,7 @@ sf project generate --name YT-Learning
 
 ---
 
-## 🧱 Part 3: The Building Materials (Variables)
+##  Part 3: The Building Materials (Variables)
 
 A **Variable** is just a reserved spot in computer memory. If you can build a custom field in the UI, you can write a variable in Apex.
 
@@ -85,7 +85,7 @@ A **Variable** is just a reserved spot in computer memory. If you can build a cu
 
 ---
 
-## 📦 Complex Variables (The "Containers")
+##  Complex Variables (The "Containers")
 
 ### 1. The sObject (The Apartment)
 
@@ -101,9 +101,9 @@ In the UI, this is a **List View**. It’s a collection of records.
 
 ---
 
-## ⚙️ Part 4: Building the Engine (Logic)
+##  Part 4: Building the Engine (Logic)
 
-### 🚦 The Decision Layer: Conditionals (`if/else`)
+### The Decision Layer: Conditionals (`if/else`)
 
 This is exactly like the **Decision Element** in Flow.
 
@@ -116,7 +116,7 @@ if (doorStatus == 'Open') {
 
 ```
 
-### 🔄 The Processing Layer: Loops (`for`)
+### The Processing Layer: Loops (`for`)
 
 If a variable is a brick, a Loop is the **assembly line**. It allows us to process entire Lists efficiently.
 
@@ -126,7 +126,7 @@ If a variable is a brick, a Loop is the **assembly line**. It allows us to proce
 
 ---
 
-## 🚀 Lab: The 20-Account Challenge
+##  Lab: The 20-Account Challenge
 
 Let's build a system that generates data and then adds an "Intelligence Layer" to filter it. Open `scripts/apex/hello.apex` and try this:
 

@@ -52,7 +52,7 @@ Contribute to the community:
 3. **Follow Along**: Open the video notes while watching the corresponding YouTube video
 4. **Practice**: Copy code samples and implement them in your own projects
 
-## 🎥 Subscribe on YouTube
+## Subscribe on YouTube
 
 Don't forget to [subscribe to the Absenthome YouTube channel](https://youtube.com/@absenthome?sub_confirmation=1) for:
 
