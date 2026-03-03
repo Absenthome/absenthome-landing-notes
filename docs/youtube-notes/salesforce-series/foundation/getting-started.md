@@ -163,4 +163,8 @@ Notice what happened:
 This is the foundation of **Bulkification**. Whether you have 10 records or 10,000, this logic remains the same.
 
 ---
+Good follow up resources in trailheads. I recommend going through and getting the following Badge.
+
+[Trailheads - Apex Basics for admins](https://trailhead.salesforce.com/content/learn/modules/apex-basics-for-admins/get-started-with-apex)
+---
 
