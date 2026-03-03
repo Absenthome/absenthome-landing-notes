@@ -262,10 +262,44 @@ html {
   background: #3d7cc8;
 }
 
-/* Smooth transitions */
+/* Smooth transitions - exclude sidebar elements */
 * {
   transition: background-color 0.2s ease,
               color 0.2s ease,
               border-color 0.2s ease;
+}
+
+/* Don't apply transitions to sidebar elements */
+.sidebar-toggle,
+.menu,
+.menu__link,
+.navbar-sidebar,
+.navbar-sidebar__backdrop {
+  transition: none !important;
+}
+
+/* Mobile sidebar - ensure proper z-index and visibility */
+@media (max-width: 996px) {
+  .navbar-sidebar__backdrop {
+    display: block;
+    z-index: 98;
+  }
+  
+  .navbar-sidebar {
+    z-index: 99;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+  }
+  
+  .sidebar {
+    z-index: 99;
+  }
+  
+  /* Ensure sidebar toggle button is clickable */
+  .navbar__toggle {
+    z-index: 100;
+    cursor: pointer;
+  }
 }
 
