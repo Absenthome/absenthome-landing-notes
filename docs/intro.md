@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Welcome to the **Absenthome** video notes archive! This is your comprehensive resource for all tutorials, guides, and educational content from the Absenthome YouTube channel—covering Salesforce development, home automation, and open source software.
 
-## 🎯 What You'll Find Here
+## What You'll Find Here
 
 This documentation site contains detailed notes, code samples, and supplementary materials for all video tutorials across three main topic areas:
 
@@ -15,7 +15,7 @@ This documentation site contains detailed notes, code samples, and supplementary
 - **Additional resources** and links
 - **Common troubleshooting** tips
 
-## 📚 Learning Paths
+## Learning Paths
 
 ### Salesforce Development
 
@@ -45,7 +45,7 @@ Contribute to the community:
 - Best practices and workflows
 - Building your own projects
 
-## 🚀 How to Use This Site
+## How to Use This Site
 
 1. **Browse by Series**: Use the sidebar to navigate through organized tutorial series
 2. **Search**: Use the search bar to find specific topics
@@ -61,7 +61,7 @@ Don't forget to [subscribe to the Absenthome YouTube channel](https://youtube.co
 - Q&A videos
 - Project walkthroughs
 
-## 💡 Tips for Success
+## Tips for Success
 
 - **Follow along** with the videos while referencing these notes
 - **Practice** the concepts with your own projects
@@ -71,18 +71,3 @@ Don't forget to [subscribe to the Absenthome YouTube channel](https://youtube.co
 ---
 
 Ready to start learning? Pick a series from the sidebar and dive in!
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
